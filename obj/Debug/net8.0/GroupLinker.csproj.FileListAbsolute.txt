@@ -1,0 +1,17 @@
+D:\VscodeFiles\C#\Whatsapps\Group-Links\GroupLinker\GroupLinker\bin\Debug\net8.0\GroupLinker.exe
+D:\VscodeFiles\C#\Whatsapps\Group-Links\GroupLinker\GroupLinker\bin\Debug\net8.0\GroupLinker.deps.json
+D:\VscodeFiles\C#\Whatsapps\Group-Links\GroupLinker\GroupLinker\bin\Debug\net8.0\GroupLinker.runtimeconfig.json
+D:\VscodeFiles\C#\Whatsapps\Group-Links\GroupLinker\GroupLinker\bin\Debug\net8.0\GroupLinker.dll
+D:\VscodeFiles\C#\Whatsapps\Group-Links\GroupLinker\GroupLinker\bin\Debug\net8.0\GroupLinker.pdb
+D:\VscodeFiles\C#\Whatsapps\Group-Links\GroupLinker\GroupLinker\bin\Debug\net8.0\HtmlAgilityPack.dll
+D:\VscodeFiles\C#\Whatsapps\Group-Links\GroupLinker\GroupLinker\obj\Debug\net8.0\GroupLinker.csproj.AssemblyReference.cache
+D:\VscodeFiles\C#\Whatsapps\Group-Links\GroupLinker\GroupLinker\obj\Debug\net8.0\GroupLinker.GeneratedMSBuildEditorConfig.editorconfig
+D:\VscodeFiles\C#\Whatsapps\Group-Links\GroupLinker\GroupLinker\obj\Debug\net8.0\GroupLinker.AssemblyInfoInputs.cache
+D:\VscodeFiles\C#\Whatsapps\Group-Links\GroupLinker\GroupLinker\obj\Debug\net8.0\GroupLinker.AssemblyInfo.cs
+D:\VscodeFiles\C#\Whatsapps\Group-Links\GroupLinker\GroupLinker\obj\Debug\net8.0\GroupLinker.csproj.CoreCompileInputs.cache
+D:\VscodeFiles\C#\Whatsapps\Group-Links\GroupLinker\GroupLinker\obj\Debug\net8.0\GroupLin.356FA1F7.Up2Date
+D:\VscodeFiles\C#\Whatsapps\Group-Links\GroupLinker\GroupLinker\obj\Debug\net8.0\GroupLinker.dll
+D:\VscodeFiles\C#\Whatsapps\Group-Links\GroupLinker\GroupLinker\obj\Debug\net8.0\refint\GroupLinker.dll
+D:\VscodeFiles\C#\Whatsapps\Group-Links\GroupLinker\GroupLinker\obj\Debug\net8.0\GroupLinker.pdb
+D:\VscodeFiles\C#\Whatsapps\Group-Links\GroupLinker\GroupLinker\obj\Debug\net8.0\GroupLinker.genruntimeconfig.cache
+D:\VscodeFiles\C#\Whatsapps\Group-Links\GroupLinker\GroupLinker\obj\Debug\net8.0\ref\GroupLinker.dll

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "yEBcLpJ7sWngavDfM1egPbcbczdKySazCNvTAj5my9cTuPyWd488ZC9mZjXe3kYbqVdBE9/TwOoQWkiUUZLl+g==",
+  "success": true,
+  "projectFilePath": "D:\\VscodeFiles\\C#\\Whatsapps\\Group-Links\\GroupLinker\\GroupLinker\\GroupLinker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\USER\\.nuget\\packages\\htmlagilitypack\\1.11.61\\htmlagilitypack.1.11.61.nupkg.sha512"
+  ],
+  "logs": []
+}
