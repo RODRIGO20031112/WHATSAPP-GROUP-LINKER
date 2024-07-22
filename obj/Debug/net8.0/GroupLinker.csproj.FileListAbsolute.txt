@@ -15,3 +15,4 @@ D:\VscodeFiles\C#\Whatsapps\Group-Links\GroupLinker\GroupLinker\obj\Debug\net8.0
 D:\VscodeFiles\C#\Whatsapps\Group-Links\GroupLinker\GroupLinker\obj\Debug\net8.0\GroupLinker.pdb
 D:\VscodeFiles\C#\Whatsapps\Group-Links\GroupLinker\GroupLinker\obj\Debug\net8.0\GroupLinker.genruntimeconfig.cache
 D:\VscodeFiles\C#\Whatsapps\Group-Links\GroupLinker\GroupLinker\obj\Debug\net8.0\ref\GroupLinker.dll
+D:\VscodeFiles\C#\Whatsapps\Group-Links\GroupLinker\GroupLinker\obj\Debug\net8.0\GroupLinker.sourcelink.json
