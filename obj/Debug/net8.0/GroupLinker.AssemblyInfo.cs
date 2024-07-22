@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GroupLinker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5dc4d5a2666c9b233951e571e28711e41a077733")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a96b8f44cdf373ac593fe6e1b54d34023f77aef")]
 [assembly: System.Reflection.AssemblyProductAttribute("GroupLinker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GroupLinker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
