@@ -1,10 +1,15 @@
 ﻿using System;
+using System.Collections.Concurrent;
+using System.Collections.Generic;
+using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 using HtmlAgilityPack;
 
 class Program
 {
+    static readonly object consoleLock = new object();
+
     static async Task Main(string[] args)
     {
         var url = "https://gruposwhats.app/";
@@ -39,6 +44,28 @@ class Program
                         counter++;
                     }
                 }
+
+                //PARA QUANDO FIZER PESQUISA INTELIGENTE | DIVIDE PROCESSAMENTO
+                // int counter = 0;
+                // ConcurrentDictionary<int, string> results = new ConcurrentDictionary<int, string>();
+
+                // Parallel.For(0, anchorNodes.Count, i =>
+                // {
+                //     var anchor = anchorNodes[i];
+                //     var href = anchor.GetAttributeValue("href", string.Empty);
+                //     if (!string.IsNullOrEmpty(href))
+                //     {
+                //         var parts = href.Split('/');
+                //         var lastSegment = parts[^1];
+                //         options[i] = lastSegment;
+                //         results[i] = lastSegment;
+
+                //         lock (consoleLock)
+                //         {
+                //             Console.WriteLine($"{i + 1}. {lastSegment}");
+                //         } 
+                //     }
+                // });
 
                 Console.Write("Digite o número da opção desejada: ");
                 string input = Console.ReadLine();
@@ -159,8 +186,17 @@ class Program
         var htmlDoc = new HtmlDocument();
         htmlDoc.LoadHtml(htmlWhatsapp);
 
-        var TagAFiltradoWhatsapp = htmlDoc.DocumentNode.SelectSingleNode("/html/body/section[2]/div/div/div[2]/div/div/a");
-        var urlWhatsapp = TagAFiltradoWhatsapp?.GetAttributeValue("data-url", string.Empty);
-        Console.WriteLine(urlWhatsapp);
+       
+
+        try {
+            var TagAFiltradoWhatsapp = htmlDoc.DocumentNode.SelectSingleNode("/html/body/section[2]/div/div/div[2]/div/div/a");
+            var urlWhatsapp = TagAFiltradoWhatsapp?.GetAttributeValue("data-url", string.Empty);
+
+            var imgNodeFiltrado = htmlDoc.DocumentNode.SelectSingleNode("/html/body/section[2]/div/div/div[2]/div/img");
+            var altText = imgNodeFiltrado.GetAttributeValue("alt", string.Empty);
+            Console.WriteLine($"Whatsapp group: {urlWhatsapp}, Group name: {altText}");
+        } catch {
+            return;
+        }
     }
 }
